@@ -1,0 +1,15 @@
+{
+  "name": "bem-structure-generator",
+  "version": "0.0.1",
+  "description": "A utility for creating a BEM file structure.",
+  "bin": "index.js",
+  "author": "Eugene Petryankin<aysanru@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.17.0",
+    "npm": ">=7.16.0"
+  },
+  "dependencies": {
+    "node-html-parser": "^5.3.3"
+  }
+}

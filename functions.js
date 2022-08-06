@@ -38,12 +38,14 @@ function getClasses(rootEl) {
 function createFolder(path) {
   if (!fs.existsSync(path)) {
     fs.mkdirSync(path, { recursive: true });
+    console.log('Folder created: ', path);
   }
 }
 
 function createFile(path, content = '') {
   if (!fs.existsSync(path)) {
     fs.writeFileSync(path, content);
+    console.log('File created:   ', path);
   }
 }
 

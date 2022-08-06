@@ -57,4 +57,5 @@ blocks.forEach(block => {
   });
 });
 
+console.log('');
 console.log('BEMissimo!');

@@ -10,7 +10,7 @@ A utility for creating a BEM file structure (nested).
 
 ## Install:
 
-`npm i -g bem-structure-generator`
+Not required. The library will be installed automatically after running the script.
 
 ## Usage:
 

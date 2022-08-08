@@ -17,3 +17,4 @@ Not required. The library will be installed automatically after running the scri
 `npx bem-structure-generator <path>`
 
 where `<path>` is a path to your HTML file. `./index.html` by default.
+It will not delete or rewrite any existing files.
